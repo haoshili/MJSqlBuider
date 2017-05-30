@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44B977DE1EDD999F00C45FD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B977DD1EDD999F00C45FD7 /* main.m */; };
+		44B977E11EDD999F00C45FD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B977E01EDD999F00C45FD7 /* AppDelegate.m */; };
+		44B977E41EDD999F00C45FD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B977E31EDD999F00C45FD7 /* ViewController.m */; };
+		44B977E71EDD999F00C45FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B977E51EDD999F00C45FD7 /* Main.storyboard */; };
+		44B977E91EDD999F00C45FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B977E81EDD999F00C45FD7 /* Assets.xcassets */; };
+		44B977EC1EDD999F00C45FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B977EA1EDD999F00C45FD7 /* LaunchScreen.storyboard */; };
+		44B977F71EDD999F00C45FD7 /* MJSqlBuiderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B977F61EDD999F00C45FD7 /* MJSqlBuiderDemoTests.m */; };
+		44B978021EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B978011EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44B977F31EDD999F00C45FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B977D11EDD999F00C45FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B977D81EDD999F00C45FD7;
+			remoteInfo = MJSqlBuiderDemo;
+		};
+		44B977FE1EDD999F00C45FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B977D11EDD999F00C45FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B977D81EDD999F00C45FD7;
+			remoteInfo = MJSqlBuiderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44B977D91EDD999F00C45FD7 /* MJSqlBuiderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJSqlBuiderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B977DD1EDD999F00C45FD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44B977DF1EDD999F00C45FD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44B977E01EDD999F00C45FD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44B977E21EDD999F00C45FD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44B977E31EDD999F00C45FD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44B977E61EDD999F00C45FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44B977E81EDD999F00C45FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B977EB1EDD999F00C45FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44B977ED1EDD999F00C45FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B977F21EDD999F00C45FD7 /* MJSqlBuiderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJSqlBuiderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B977F61EDD999F00C45FD7 /* MJSqlBuiderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJSqlBuiderDemoTests.m; sourceTree = "<group>"; };
+		44B977F81EDD999F00C45FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B977FD1EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJSqlBuiderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B978011EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJSqlBuiderDemoUITests.m; sourceTree = "<group>"; };
+		44B978031EDD999F00C45FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B977D61EDD999F00C45FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977EF1EDD999F00C45FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977FA1EDD999F00C45FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44B977D01EDD999F00C45FD7 = {
+			isa = PBXGroup;
+			children = (
+				44B977DB1EDD999F00C45FD7 /* MJSqlBuiderDemo */,
+				44B977F51EDD999F00C45FD7 /* MJSqlBuiderDemoTests */,
+				44B978001EDD999F00C45FD7 /* MJSqlBuiderDemoUITests */,
+				44B977DA1EDD999F00C45FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44B977DA1EDD999F00C45FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B977D91EDD999F00C45FD7 /* MJSqlBuiderDemo.app */,
+				44B977F21EDD999F00C45FD7 /* MJSqlBuiderDemoTests.xctest */,
+				44B977FD1EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B977DB1EDD999F00C45FD7 /* MJSqlBuiderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44B977DF1EDD999F00C45FD7 /* AppDelegate.h */,
+				44B977E01EDD999F00C45FD7 /* AppDelegate.m */,
+				44B977E21EDD999F00C45FD7 /* ViewController.h */,
+				44B977E31EDD999F00C45FD7 /* ViewController.m */,
+				44B977E51EDD999F00C45FD7 /* Main.storyboard */,
+				44B977E81EDD999F00C45FD7 /* Assets.xcassets */,
+				44B977EA1EDD999F00C45FD7 /* LaunchScreen.storyboard */,
+				44B977ED1EDD999F00C45FD7 /* Info.plist */,
+				44B977DC1EDD999F00C45FD7 /* Supporting Files */,
+			);
+			path = MJSqlBuiderDemo;
+			sourceTree = "<group>";
+		};
+		44B977DC1EDD999F00C45FD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44B977DD1EDD999F00C45FD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44B977F51EDD999F00C45FD7 /* MJSqlBuiderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				44B977F61EDD999F00C45FD7 /* MJSqlBuiderDemoTests.m */,
+				44B977F81EDD999F00C45FD7 /* Info.plist */,
+			);
+			path = MJSqlBuiderDemoTests;
+			sourceTree = "<group>";
+		};
+		44B978001EDD999F00C45FD7 /* MJSqlBuiderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44B978011EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.m */,
+				44B978031EDD999F00C45FD7 /* Info.plist */,
+			);
+			path = MJSqlBuiderDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B977D81EDD999F00C45FD7 /* MJSqlBuiderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B978061EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemo" */;
+			buildPhases = (
+				44B977D51EDD999F00C45FD7 /* Sources */,
+				44B977D61EDD999F00C45FD7 /* Frameworks */,
+				44B977D71EDD999F00C45FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJSqlBuiderDemo;
+			productName = MJSqlBuiderDemo;
+			productReference = 44B977D91EDD999F00C45FD7 /* MJSqlBuiderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44B977F11EDD999F00C45FD7 /* MJSqlBuiderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B978091EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemoTests" */;
+			buildPhases = (
+				44B977EE1EDD999F00C45FD7 /* Sources */,
+				44B977EF1EDD999F00C45FD7 /* Frameworks */,
+				44B977F01EDD999F00C45FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B977F41EDD999F00C45FD7 /* PBXTargetDependency */,
+			);
+			name = MJSqlBuiderDemoTests;
+			productName = MJSqlBuiderDemoTests;
+			productReference = 44B977F21EDD999F00C45FD7 /* MJSqlBuiderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44B977FC1EDD999F00C45FD7 /* MJSqlBuiderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B9780C1EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemoUITests" */;
+			buildPhases = (
+				44B977F91EDD999F00C45FD7 /* Sources */,
+				44B977FA1EDD999F00C45FD7 /* Frameworks */,
+				44B977FB1EDD999F00C45FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44B977FF1EDD999F00C45FD7 /* PBXTargetDependency */,
+			);
+			name = MJSqlBuiderDemoUITests;
+			productName = MJSqlBuiderDemoUITests;
+			productReference = 44B977FD1EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B977D11EDD999F00C45FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = spuxpu;
+				TargetAttributes = {
+					44B977D81EDD999F00C45FD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CHT9QU32H9;
+						ProvisioningStyle = Automatic;
+					};
+					44B977F11EDD999F00C45FD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CHT9QU32H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44B977D81EDD999F00C45FD7;
+					};
+					44B977FC1EDD999F00C45FD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CHT9QU32H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44B977D81EDD999F00C45FD7;
+					};
+				};
+			};
+			buildConfigurationList = 44B977D41EDD999F00C45FD7 /* Build configuration list for PBXProject "MJSqlBuiderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B977D01EDD999F00C45FD7;
+			productRefGroup = 44B977DA1EDD999F00C45FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B977D81EDD999F00C45FD7 /* MJSqlBuiderDemo */,
+				44B977F11EDD999F00C45FD7 /* MJSqlBuiderDemoTests */,
+				44B977FC1EDD999F00C45FD7 /* MJSqlBuiderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B977D71EDD999F00C45FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B977EC1EDD999F00C45FD7 /* LaunchScreen.storyboard in Resources */,
+				44B977E91EDD999F00C45FD7 /* Assets.xcassets in Resources */,
+				44B977E71EDD999F00C45FD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977F01EDD999F00C45FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977FB1EDD999F00C45FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B977D51EDD999F00C45FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B977E41EDD999F00C45FD7 /* ViewController.m in Sources */,
+				44B977E11EDD999F00C45FD7 /* AppDelegate.m in Sources */,
+				44B977DE1EDD999F00C45FD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977EE1EDD999F00C45FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B977F71EDD999F00C45FD7 /* MJSqlBuiderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B977F91EDD999F00C45FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B978021EDD999F00C45FD7 /* MJSqlBuiderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44B977F41EDD999F00C45FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B977D81EDD999F00C45FD7 /* MJSqlBuiderDemo */;
+			targetProxy = 44B977F31EDD999F00C45FD7 /* PBXContainerItemProxy */;
+		};
+		44B977FF1EDD999F00C45FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B977D81EDD999F00C45FD7 /* MJSqlBuiderDemo */;
+			targetProxy = 44B977FE1EDD999F00C45FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44B977E51EDD999F00C45FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B977E61EDD999F00C45FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44B977EA1EDD999F00C45FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B977EB1EDD999F00C45FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44B978041EDD999F00C45FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44B978051EDD999F00C45FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B978071EDD999F00C45FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44B978081EDD999F00C45FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44B9780A1EDD999F00C45FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJSqlBuiderDemo.app/MJSqlBuiderDemo";
+			};
+			name = Debug;
+		};
+		44B9780B1EDD999F00C45FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJSqlBuiderDemo.app/MJSqlBuiderDemo";
+			};
+			name = Release;
+		};
+		44B9780D1EDD999F00C45FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MJSqlBuiderDemo;
+			};
+			name = Debug;
+		};
+		44B9780E1EDD999F00C45FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CHT9QU32H9;
+				INFOPLIST_FILE = MJSqlBuiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spuxpu.MJSqlBuiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MJSqlBuiderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B977D41EDD999F00C45FD7 /* Build configuration list for PBXProject "MJSqlBuiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B978041EDD999F00C45FD7 /* Debug */,
+				44B978051EDD999F00C45FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B978061EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B978071EDD999F00C45FD7 /* Debug */,
+				44B978081EDD999F00C45FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44B978091EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B9780A1EDD999F00C45FD7 /* Debug */,
+				44B9780B1EDD999F00C45FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44B9780C1EDD999F00C45FD7 /* Build configuration list for PBXNativeTarget "MJSqlBuiderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B9780D1EDD999F00C45FD7 /* Debug */,
+				44B9780E1EDD999F00C45FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B977D11EDD999F00C45FD7 /* Project object */;
+}
