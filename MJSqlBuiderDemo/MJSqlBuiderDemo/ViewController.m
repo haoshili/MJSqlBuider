@@ -26,4 +26,11 @@
 }
 
 
+- (IBAction)addData:(id)sender {
+    
+    NSLog(@"add data");
+    
+}
+
+
 @end

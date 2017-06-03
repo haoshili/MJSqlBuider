@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TransDatabaseFUtils.h"
+#import "SqlHead.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    [TransDatabaseFUtils transDatabase];
+    [[SqliteManager shareIntance] openDB];
+
+    
+    
     return YES;
 }
 

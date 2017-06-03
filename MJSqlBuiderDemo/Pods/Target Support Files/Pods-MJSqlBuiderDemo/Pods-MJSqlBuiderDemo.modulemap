@@ -1,0 +1,6 @@
+framework module Pods_MJSqlBuiderDemo {
+  umbrella header "Pods-MJSqlBuiderDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
